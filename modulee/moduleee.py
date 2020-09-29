@@ -21,4 +21,4 @@ theater_module.price_soldier(5)
 
 from theater_module import price_soldier as price
 # price_soldier 만 theater_module 을 생략해 쓰면서 동시에 price_soldier 을 price 로 바꿔 부름
-price(5)  # 아까 썼던 price_soldier(5)과 같음
+price(5)  # 아까 썼던 price_soldier(modulee)과 같음

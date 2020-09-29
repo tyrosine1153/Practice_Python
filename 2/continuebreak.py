@@ -1,5 +1,5 @@
 """
-absent = [2, 5]
+absent = [2, modulee]
 no_book = [7]
 for student in range(1, 11):
     if student in absent:

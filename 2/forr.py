@@ -1,11 +1,11 @@
 for waiting_num in [0, 1, 2, 3, 4]:
-    # for(int waiting_num = 0; waiting_num < 5; waiting_num++)
+    # for(int waiting_num = 0; waiting_num < modulee; waiting_num++)
     print("대기번호 : {}".format(waiting_num))
 
 for waiting_num in range(5):  # 0, 1, 2, 3, 4
     print("대기번호 : {}".format(waiting_num))
 
-for waiting_num in range(1, 6):  # 1, 2, 3, 4, 5
+for waiting_num in range(1, 6):  # 1, 2, 3, 4, modulee
     print("대기번호 : {}".format(waiting_num))
 
 cafe = ["가영", "나영", "다영"]
