@@ -1,6 +1,5 @@
-from practice.area import area as ar
-from practice.area import shapes2d as sh
-from practice.area.shapes2d import Square as Sq
+from practice.shapes import area as ar, shapes2d as sh
+from practice.shapes.shapes2d import Square as Sq
 
 print(ar.circle(2))
 print(ar.square(3))
