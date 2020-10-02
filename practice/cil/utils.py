@@ -30,27 +30,5 @@ def display(img):
         print()
 
 
-# 이미지 색상 반전
-def invert(img):
-    # img 이미지 크기
-    height, width = len(img), len(img[0])
-
-    new_img = empty_image(height, width)
-    for line in range(height):
-        for bit in range(width):
-            new_img[line][bit] = invert_bit(img[line][bit])
-
-    return new_img
 
 
-# -1로 채워진 새로운 이미지 생성
-def empty_image(height, width):
-    new_img = []
-    for i in range(height):
-        new_img.append([-1] * width)
-    return new_img
-
-
-# 비트 반전
-def invert_bit(bit):
-    return 1 - bit

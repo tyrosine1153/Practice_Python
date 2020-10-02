@@ -1,4 +1,4 @@
-PI = 3.14
+from shapes import PI
 
 
 # 구의 부피를 구해 주는 함수

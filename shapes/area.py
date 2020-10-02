@@ -1,5 +1,5 @@
-# 도형의 넓이를 구하는 함수
-PI = 3.14
+from shapes import PI
+# __init__에서 선언한 변수를 가져와 사용함
 
 
 def circle(radius):

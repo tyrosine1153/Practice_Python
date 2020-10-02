@@ -1,4 +1,4 @@
-PI = 3.14
+from shapes import PI
 
 
 class Circle:
