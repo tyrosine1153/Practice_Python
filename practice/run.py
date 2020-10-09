@@ -1,9 +1,11 @@
-from shapes import shapes2d as sh, area as ar
+# from shapes import shapes2d as sh, area as ar
+# from shapes.shapes2d import Square as Sq
+from shapes import shapes2d as sh, area as ar, PI
 from shapes.shapes2d import Square as Sq
 
 print(ar.circle(2))
 print(ar.square(3))
-print(ar.PI)
+print(PI)
 
 
 circle = sh.Circle(2)  # 생성자
@@ -34,4 +36,5 @@ def square():
     print("recent")
 # 파이썬에서는 같은 이름의 함수가 여러개 정의 되었을때 나중에 정의된 함수를 실행한다.
 # 코듈에서 가져온 함수도 마찬가지이므로 임포트할때 주의해 함수를 구분해준다.
+
 square()

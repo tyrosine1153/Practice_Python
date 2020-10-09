@@ -1,7 +1,7 @@
 print(1 + 1)  # 2
 print(3 - 2)  # 1
 print(6 * 3)  # 18
-print(6 / 3, "\n")  #2.0
+print(6 / 3, "\n")  # 2.0
 
 print(2 ** 3)  # 8
 print(5 % 3)  # 2
