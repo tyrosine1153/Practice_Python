@@ -1,4 +1,4 @@
-import shapes
+print(mymath.shapes.area.circle(2))
+print(mymath.shapes.volume.sphere(5))
 
-print(shapes.area.circle(2))
-print(shapes.volume.sphere(5))
+print(dir())

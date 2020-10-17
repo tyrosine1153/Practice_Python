@@ -1,4 +1,4 @@
-from shapes import PI
+from mymath.shapes import PI
 
 
 # 구의 부피를 구해 주는 함수

@@ -1,4 +1,4 @@
-from shapes import PI
+from mymath.shapes import PI
 
 
 class Circle:

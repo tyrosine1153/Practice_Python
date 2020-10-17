@@ -1,7 +1,8 @@
 # from shapes import shapes2d as sh, area as ar
 # from shapes.shapes2d import Square as Sq
-from shapes import shapes2d as sh, area as ar, PI
-from shapes.shapes2d import Square as Sq
+from mymath.shapes import shapes2d as sh, PI
+from mymath.shapes import area as ar
+from mymath.shapes.shapes2d import Square as Sq
 
 print(ar.circle(2))
 print(ar.square(3))

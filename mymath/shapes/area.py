@@ -1,4 +1,4 @@
-from shapes import PI
+from mymath.shapes import PI
 # __init__에서 선언한 변수를 가져와 사용함
 
 
